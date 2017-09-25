@@ -9,7 +9,7 @@ if(UNIX)
   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Werror")
 endif()
 
-add_executable(Iterator main.cpp)
+add_executable(Iterator iterator.cpp)
 
 
-add_executable(vecIterator vectoriterator.cpp)
+add_executable(listIterator listiterator.cpp)
