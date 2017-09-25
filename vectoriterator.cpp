@@ -13,9 +13,6 @@ int main() {
 
 	for (size_t i = 0; i < NUMELEMENTS; i++) {
 		myList.push_back(i);
-		if (i == 25) {
-			//new int[500];
-		}
 	}
 	MyIterator prev;
 	size_t counter = 0;
