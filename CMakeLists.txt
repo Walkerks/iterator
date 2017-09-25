@@ -10,3 +10,6 @@ if(UNIX)
 endif()
 
 add_executable(Iterator main.cpp)
+
+
+add_executable(vecIterator vectoriterator.cpp)

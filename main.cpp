@@ -1,12 +1,9 @@
 #include <iostream>
 #include <stdexcept>
-
+#include <cstdlib>
 using namespace std;
 
 //LinkedList modified from https://stackoverflow.com/a/22141970
-
-
-
 
 
 class LinkedList {
@@ -128,8 +125,6 @@ private:
 
 
 
-
-
 int main() {
 	LinkedList list;
 
@@ -152,5 +147,5 @@ int main() {
 	cout << list.popValue() << endl;
 	cout << list.popValue() << endl;
 
-	return 0;
+	return EXIT_SUCCESS;
 }
